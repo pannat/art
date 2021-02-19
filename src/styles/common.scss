@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  min-height: 100vh;
+  width: 100%;
+}
+
+main {
+  display: block;
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0 0 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 1px dotted cadetblue;
+}
+
+#canvas {
+  background-color: #d5e6f0;
+}
